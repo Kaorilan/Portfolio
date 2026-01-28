@@ -18,12 +18,35 @@
     padding-bottom: 4rem;
 }
 
-/* display background dark color on navbar scroll */
-.navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+/* Navbar collapse (menu mobile) : fond violet très clair et transparent */
+.navbar .container{
+    background-color: rgba(138, 43, 226, 0.18);
+    border-radius: 12px;
+    padding: 1rem;
+    
 }
 
-/* hero background image */
+.navbar-collapse.show {
+    margin-top: 5px;
+}
+
+.navbar-collapse .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-collapse .nav-link:hover,
+.navbar-collapse .nav-link:focus {
+    color: #e0d4ff !important
+}
+
+/* display background dark color on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgba(138, 43, 226, 0.18);
+}
+
+
 .bgimage {
     height: 100vh;
     max-height: 900px;
@@ -31,7 +54,7 @@
     background-size: cover;
     position: relative;
 }
-/* text css above hero image*/
+
 .hero_title {
     font-size: 4.5rem;
 }
@@ -45,8 +68,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    padding: 2rem;                  /* raisonnable */
-    width: 90%;                     /* évite que ça dépasse sur mobile */
+    padding: 2rem;
+    width: 90%;
     max-width: 800px;
 }
 
@@ -86,7 +109,7 @@
     color: #008000;
 }
 .skillsText:hover {
-    border: 2px solid #551b7ac9;
+    border: 2px solid rgba(138, 43, 226, 0.18);
     box-shadow: var(--shadow);
     transform: translateY(-2px);
     transition: all 0.3s ease;
@@ -104,14 +127,14 @@
     border-bottom: 1px solid #dee2e6;
 }
 .portfolioContent:hover {
-    border: 2px solid #551b7ac9;
-    box-shadow: var(--shadow);
+    border: 2px solid rgba(138, 43, 226, 0.18);
+    box-shadow: rgba(138, 43, 226, 0.18);
     transform: translateY(-2px);
     transition: all 0.3s ease;
 }
 .portfolioContent .btn-success {
-    background-color: #551b7ac9;
-    border-color: #551b7ac9;
+    background-color: rgba(138, 43, 226, 0.18);
+    border-color: rgba(138, 43, 226, 0.18);
     color: white;
     font-weight: 500;
 }
@@ -131,19 +154,19 @@
 }
 
 .contactColumn i {
-    color: #551b7ac9;
+    color: rgba(138, 43, 226, 0.18);
     font-size: 3rem;                 /* un peu plus grand */
     margin-bottom: 1rem;
     transition: color 0.3s;
 }
 
 .contactColumn:hover i {
-    color: #551b7ac9;           /* violet au hover pour cohérence */
+    color: rgba(138, 43, 226, 0.18);           /* violet au hover pour cohérence */
 }
 
 /* footer */
 footer {
-    background-color: #551b7ac9;
+    background-color: rgba(138, 43, 226, 0.18);
     color: white;
     text-align: center;
     padding: 2rem 1rem;
@@ -159,6 +182,16 @@ footer a:hover {
 
 
 @media (max-width: 768px) {
+    .navbar-collapse {
+    background-color: rgba(138, 43, 226, 0.18);
+    
+    -webkit-backdrop-filter: blur(8px);/* Pour Safari/iOS */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    top: 0;
+    }
+
     .bgimage {
         height: 80vh;
         min-height: 500px;
@@ -173,7 +206,7 @@ footer a:hover {
     .hero_title {
         font-size: 2.8rem !important;
         line-height: 1.1;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
     }
 
     .hero_desc {
@@ -183,6 +216,7 @@ footer a:hover {
     body {
         padding-top: 0px;
     }
+
 
     #about {
         padding-top: 0;
