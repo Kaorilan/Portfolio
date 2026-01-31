@@ -173,7 +173,7 @@ h2::after {
     transition: all 0.3s ease;
 }
 .portfolioContent .btn-success {
-    background-color: rgba(34, 6, 59, 0.50);
+    background-color: rgba(130, 74, 181, 0.5);
     border-color: rgba(34, 6, 59, 0.657);
     color: white;
     font-weight: 500;
