@@ -73,7 +73,7 @@ h2::after {
 .bgimage {
     height: 100vh;
     max-height: 900px;
-    background: url("images/image1.jpg");
+    background: url("images/background.jpg");
     background-size: cover;
     position: relative;
 }
@@ -81,7 +81,7 @@ h2::after {
 .hero_title {
     font-size: 4.5rem;
     padding-bottom: 30px;
-    color: #AEAEFF;;
+    color: #AEAEFF;
 }
 
 .hero_title::after{
