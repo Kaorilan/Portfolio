@@ -2,7 +2,7 @@
 
 Portfolio personnel testeuse logiciel junior, créé avec HTML, CSS et JavaScript.
 
-[Portfolio en ligne](https://kaorilan.github.io/Portfolio/)]
+[Portfolio en ligne](https://kaorilan.github.io/Portfolio/)
 
 
 ## Aperçu
