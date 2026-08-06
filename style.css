@@ -226,8 +226,8 @@ footer a:hover {
     }
 
     .bgimage {
-        height: 80vh;
-        min-height: 500px;
+        height: 20%;
+        min-height: 350px;
     }
 
     .hero-text {
@@ -236,6 +236,8 @@ footer a:hover {
         width: 95%;
         left: 50%;
         top: 54%;
+        top: 160%;
+        display: block;
     }
 
     .hero_title {
@@ -255,11 +257,13 @@ footer a:hover {
 
     #about {
         padding-top: 0;
-        margin-top: 0;
+        margin-top: 110%;
     }
 
     .imageAboutPage{
         margin-bottom: 10px;
     }
 
-}
+    .col-12{
+        background-color: rgba(8, 8, 8, 0.96)
+    }
