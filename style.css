@@ -240,9 +240,10 @@ footer a:hover {
         transform: translate(-50%, -45%);
         width: 95%;
         left: 50%;
-        top: 54%;
-        top: 160%;
+        top: 135%;
         display: block;
+        background-color: black;
+        
     }
 
     .hero_title {
